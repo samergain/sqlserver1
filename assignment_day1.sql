@@ -23,7 +23,7 @@ FROM Production.Product
 WHERE Color IS NOT NULL AND ListPrice > 0 
 
 --6
-SELECT (Name+ ' ' + Color) As NameColor
+SELECT (Name+ ' ' + Color) As Name_Color
 FROM Production.Product
 WHERE Color IS NOT NULL
 
